@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_M716cUvOEeWBvKD3-otE8w" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
+<?xml version="1.0" encoding="UTF-8"?><bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_M716cUvOEeWBvKD3-otE8w" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
   <bpmn2:itemDefinition id="_val1Item" structureRef="java.lang.string"/>
   <bpmn2:itemDefinition id="__66E74AA6-C7CB-49AB-A0B9-3684831275A3_SkippableInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__66E74AA6-C7CB-49AB-A0B9-3684831275A3_val1InputXItem" structureRef="java.lang.string"/>
   <bpmn2:itemDefinition id="__8C90C605-E6E5-46ED-BCC7-52B7FEDE3AB8_val1InputXItem" structureRef="java.lang.string"/>
   <bpmn2:itemDefinition id="__8C90C605-E6E5-46ED-BCC7-52B7FEDE3AB8_SkippableInputXItem" structureRef="Object"/>
   <bpmn2:process id="jbpmTest.bp" drools:packageName="org.jbpm" drools:version="1.0" name="bp" isExecutable="true">
-    <bpmn2:property id="val1" itemSubjectRef="_val1Item"/>
+    <bpmn2:property id="val111111" itemSubjectRef="_val1Item"/>
     <bpmn2:startEvent id="_2146CF76-A5E7-439F-8A5F-A999B15805EE" drools:bgcolor="#9acd32" drools:selectable="true" name="">
       <bpmn2:outgoing>_5115A56D-49D1-44B2-AD50-933184840CEB</bpmn2:outgoing>
     </bpmn2:startEvent>
