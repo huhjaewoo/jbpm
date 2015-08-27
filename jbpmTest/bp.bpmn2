@@ -5,7 +5,7 @@
   <bpmn2:itemDefinition id="__8C90C605-E6E5-46ED-BCC7-52B7FEDE3AB8_val1InputXItem" structureRef="java.lang.string"/>
   <bpmn2:itemDefinition id="__8C90C605-E6E5-46ED-BCC7-52B7FEDE3AB8_SkippableInputXItem" structureRef="Object"/>
   <bpmn2:process id="jbpmTest.bp" drools:packageName="org.jbpm" drools:version="1.0" name="bp" isExecutable="true">
-    <bpmn2:property id="val1_3333" itemSubjectRef="_val1Item"/>
+    <bpmn2:property id="val1_4444" itemSubjectRef="_val1Item"/>
     <bpmn2:startEvent id="_2146CF76-A5E7-439F-8A5F-A999B15805EE" drools:bgcolor="#9acd32" drools:selectable="true" name="">
       <bpmn2:outgoing>_5115A56D-49D1-44B2-AD50-933184840CEB</bpmn2:outgoing>
     </bpmn2:startEvent>
