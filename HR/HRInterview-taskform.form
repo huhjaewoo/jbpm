@@ -1,0 +1,93 @@
+
+<form id="1635016859">
+<property name="name" value="HRInterview-taskform"/>
+<property name="displayMode" value="template"/>
+<property name="labelMode" value="undefined"/>
+<property name="status" value="0"/>
+<property name="formTemplate" value="&lt;div&gt;&lt;input name=&quot;taskId&quot; type=&quot;hidden&quot; value=&quot;${task.id}&quot; /&gt; &amp;lt;#if task.taskData.status = &amp;#39;Ready&amp;#39;&amp;gt;
+&lt;h4&gt;!!You need to first claim the task before start working&lt;/h4&gt;
+&lt;!--#if--&gt; &amp;lt;#if task.taskData.status = &amp;#39;Reserved&amp;#39;&amp;gt;
+
+&lt;h4&gt;Start the task to begin with the interview&lt;/h4&gt;
+&lt;!--#if--&gt;&lt;/div&gt;
+&lt;legend&gt;Task Inputs&lt;/legend&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div class=&quot;control-group&quot;&gt;&lt;label class=&quot;control-label&quot;&gt;Candidate Name&lt;/label&gt;
+
+&lt;div class=&quot;controls&quot;&gt;&lt;span class=&quot;uneditable-input&quot;&gt;${in_name}&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;legend&gt;Task Outputs&lt;/legend&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div class=&quot;control-group&quot;&gt;&lt;label class=&quot;control-label&quot; for=&quot;out_age&quot;&gt;Age&lt;/label&gt;
+
+&lt;div class=&quot;controls&quot;&gt;&amp;lt;#if task.taskData.status = &amp;#39;Reserved&amp;#39;&amp;gt; &lt;input disabled=&quot;disabled&quot; id=&quot;out_age&quot; name=&quot;out_age&quot; type=&quot;text&quot; value=&quot;&quot; /&gt; &lt;!--#if--&gt; &amp;lt;#if task.taskData.status = &amp;#39;InProgress&amp;#39;&amp;gt; &lt;input id=&quot;out_age&quot; name=&quot;out_age&quot; type=&quot;text&quot; value=&quot;&quot; /&gt; &lt;!--#if--&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div class=&quot;control-group&quot;&gt;&lt;label class=&quot;control-label&quot; for=&quot;out_mail&quot;&gt;Email&lt;/label&gt;
+
+&lt;div class=&quot;controls&quot;&gt;&amp;lt;#if task.taskData.status = &amp;#39;Reserved&amp;#39;&amp;gt; &lt;input disabled=&quot;disabled&quot; id=&quot;out_mail&quot; name=&quot;out_mail&quot; type=&quot;email&quot; value=&quot;&quot; /&gt; &lt;!--#if--&gt; &amp;lt;#if task.taskData.status = &amp;#39;InProgress&amp;#39;&amp;gt; &lt;input id=&quot;out_mail&quot; name=&quot;out_mail&quot; type=&quot;email&quot; value=&quot;&quot; /&gt; &lt;!--#if--&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div class=&quot;control-group&quot;&gt;&lt;label class=&quot;control-label&quot; for=&quot;out_score&quot;&gt;Score&lt;/label&gt;
+
+&lt;div class=&quot;controls&quot;&gt;&amp;lt;#if task.taskData.status = &amp;#39;Reserved&amp;#39;&amp;gt; &lt;select disabled=&quot;disabled&quot; id=&quot;out_score&quot; name=&quot;out_score&quot;&gt;&lt;option value=&quot;1&quot;&gt;1 - Poor&lt;/option&gt;&lt;option value=&quot;2&quot;&gt;2&lt;/option&gt;&lt;option value=&quot;3&quot;&gt;3 - Well&lt;/option&gt;&lt;option value=&quot;4&quot;&gt;4&lt;/option&gt;&lt;option value=&quot;5&quot;&gt;5 - Excellent&lt;/option&gt; &lt;/select&gt; &lt;!--#if--&gt; &amp;lt;#if task.taskData.status = &amp;#39;InProgress&amp;#39;&amp;gt; &lt;select id=&quot;out_score&quot; name=&quot;out_score&quot;&gt;&lt;option value=&quot;1&quot;&gt;1 - Poor&lt;/option&gt;&lt;option value=&quot;2&quot;&gt;2&lt;/option&gt;&lt;option value=&quot;3&quot;&gt;3 - Well&lt;/option&gt;&lt;option value=&quot;4&quot;&gt;4&lt;/option&gt;&lt;option value=&quot;5&quot;&gt;5 - Excellent&lt;/option&gt; &lt;/select&gt; &lt;!--#if--&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+"/>
+<field position="0" name="name" type="InputText" id="1239526896">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;Candidate Namequot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="age" type="InputTextInteger" id="610009915">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;Agequot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value="5"/>
+<property name="maxlength" value="2"/>
+<property name="outputBinding" value="out_age"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="mail" type="InputTextEmail" id="1708799249">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;Emailquot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="out_mail"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="hr_score" type="InputTextInteger" id="587322916">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;Scorequot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="rangeFormula" value="{1,1 - Poor;2,2;3,3 - Well;4,4;5,5 - Excellent}"/>
+<property name="outputBinding" value="out_score"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+</form>

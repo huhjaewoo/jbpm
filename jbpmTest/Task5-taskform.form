@@ -1,0 +1,15 @@
+
+<form id="1360009592">
+<property name="name" value="Task5-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="l2" type="InputText" id="1244905824">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;li2 (l2)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="li2"/>
+<property name="outputBinding" value="lo2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="li2" name="#0000A0" type="basicType" outId="lo2" value="java.lang.String" id="l2"/>
+</form>
