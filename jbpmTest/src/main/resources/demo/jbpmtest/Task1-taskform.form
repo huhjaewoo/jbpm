@@ -1,0 +1,29 @@
+
+<form id="335492471">
+<property name="name" value="Task1-taskform.form"/>
+<property name="displayMode" value="aligned"/>
+<property name="labelMode" value="undefined"/>
+<property name="status" value="0"/>
+<field position="0" name="field1" type="InputText" id="1601893880">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;input1quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="field_input1"/>
+<property name="outputBinding" value="field_output1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="field2" type="InputText" id="1615964170">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;field_input2 (field2)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="field_input2"/>
+<property name="outputBinding" value="field_output2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="field_input1" name="#0000A0" type="basicType" outId="field_output1" value="java.lang.String" id="field1"/>
+<dataHolder inputId="field_input2" name="#0000A0" type="basicType" outId="field_output2" value="java.lang.String" id="field2"/>
+</form>
